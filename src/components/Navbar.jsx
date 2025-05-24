@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-light bg-light px-3">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          <img src="https://logos-world.net/wp-content/uploads/2020/11/Star-Wars-Logo.png" height={40} alt="Star Wars" />
+          <img src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254/" height={40} alt="Star Wars" />
         </Link>
         <div className="dropdown">
           <button
