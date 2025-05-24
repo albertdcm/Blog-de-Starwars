@@ -1,0 +1,98 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #fff;
+}
+
+a {
+  color: #ffe81f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #111 !important;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.btn-primary {
+  background-color: #ffe81f;
+  color: #000;
+  border: none;
+}
+
+.btn-outline-primary {
+  color: #ffe81f;
+  border: 1px solid #ffe81f;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ffe81f;
+  color: #000;
+}
+
+.btn-outline-warning {
+  color: #ffe81f;
+  border-color: #ffe81f;
+}
+
+.card {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.card .btn {
+  margin-top: 10px;
+}
+
+.card img {
+  border-bottom: 1px solid #333;
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  background-color: #111;
+  border: 1px solid #333;
+}
+
+.dropdown-item {
+  color: #ffe81f;
+}
+
+.dropdown-item:hover {
+  background-color: #222;
+}
+
+.container {
+  padding: 2rem;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
